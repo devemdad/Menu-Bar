@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+}
+.navbar{
+    display:flex;
+    
+    background:#070a29;
+    padding:25px 18px;
+    position:relative;
+    align-items: center;
+}
+.nav-logo{
+    width:26%;
+    
+}
+.nav-logo .image-logo{
+    /* display:inline-block; */
+    width:160px;
+    height: 38px;
+    cursor:pointer;
+}
+#main-manu{
+    width:50%;
+}
+#main-manu .fa-solid{
+    font-size:12px;
+    color:gray;
+    margin-left:4px;
+    margin-top:-4px;
+    
+}
+#main-manu ul{
+    /* display:flex; */
+    
+}
+#main-manu li{
+    display:inline-block;
+    position:relative;
+}
+#main-manu ul li{
+    list-style:none;
+    /* line-height:23px; */
+    
+}
+#main-manu ul li a{
+    font-family:Conthrax, sans-serif;
+    text-decoration:none;
+    color:#ffffff;
+    font-size:20px;
+    font-weight:700;
+    margin-right:25px;
+    
+}
+#main-manu ul li a:hover{
+    color:#5c27fe;
+}
+#main-manu ul .hom{
+    position:absolute;
+    left:0;
+    top:0;
+    background:#ffffff;
+    border-radius:8px;
+    width:235px;
+    min-height:120px;
+    margin-top:25px;
+    border:1px solid gray;
+    display:none;
+   
+}
+#main-manu ul .hom li{
+   display:block;
+   padding:15px;
+   border-bottom: 1px solid gray;
+}
+#main-manu ul .hom li a{
+    color:black;
+}
+#main-manu ul .hom li a:hover{
+    color:#5c27fe;
+}
+#main-manu ul li:hover .hom{
+    display:block;
+}
+
+
+
+#main-manu ul .exp{
+    position:absolute;
+    left:0;
+    top:0;
+    background:#ffffff;
+    border-radius:8px;
+    width:280px;
+    min-height:120px;
+    margin-top:25px;
+    border:1px solid gray;
+    display:none;
+   
+}
+#main-manu ul .exp li{
+   display:block;
+   padding:15px;
+   border-bottom: 1px solid gray;
+}
+#main-manu ul .exp li a{
+    color:black;
+}
+#main-manu ul .exp li a:hover{
+    color:#5c27fe;
+}
+#main-manu ul li:hover .exp{
+    display:block;
+}
+
+
+.nav-search{
+    /* margin-right:28px; */
+    margin-left:120px;
+}
+.nav-search .fa-solid{
+    font-size:23px;
+    color:#ffffff;
+}
+.nab-btn{
+    /* padding:5px; */
+    border:1px solid #8d7f7f83;
+    border-radius:12px;
+    position:absolute;
+    right: 20px;
+    padding:5px;
+}
+.nab-btn .btn{
+    font-size:20px;
+    font-weight:700;
+    padding:10px 20px;
+    border-radius:12px;
+    border:none;
+    background:linear-gradient(264.28deg, #dec7ff -38.2%, #5c27fe 103.12%);
+    color:#ffffff;
+    cursor:pointer;
+    transition: all .3s ease-in-out;
+    /* margin:10px; */
+    
+}

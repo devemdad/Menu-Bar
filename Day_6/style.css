@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/* top-header */
+
+.top-header{
+    position:relative;
+    display:flex;
+    padding:10px 10px 10px 0;
+    border:1px solid rgb(224, 220, 220) ;
+    
+}
+.top-header .top-left{
+    width:50%;
+}
+.top-header .top-left strong{
+    position: absolute;
+    left:8%;
+    top:12px;
+    display:inline-block;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+.top-header .top-right{
+    width:50%;
+    display:inline-block;
+}
+.top-header .top-right li{
+    display:inline-block;
+    list-style:none;
+    padding-right:15px;
+}
+.top-header .top-right ul li a{
+    text-decoration:none; 
+    font-family: sans-serif; 
+    font-size:14px;
+    color:rgb(127, 130, 133);
+    /* font-weight: 100; */
+}
+
+.top-right .loc-li{
+    position:absolute;
+    right:35%;
+    top:12px;
+}
+.top-right strong{
+    margin-left:5px;
+}
+.top-right .haif-1{
+    position:absolute;
+    right:34%;
+    top:12px;
+}
+.top-right .ord-li{
+    position:absolute;
+    right:23%;
+    top:12px;
+}
+.top-right .haif-2{
+    position:absolute;
+    right:22%;
+    top:12px;
+}
+.top-right .shop-li{
+    position:absolute;
+    right:17%;
+    top:12px;
+}
+.top-right li .haif-3{
+    position:absolute;
+    right:16%;
+    top:12px;
+}
+.top-right .acc-li{
+    position:absolute;
+    right:8%;
+    top:12px;
+}

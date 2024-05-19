@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding:0;
+}
+.navbar{
+    background:#070E1B;
+}
+
+.container{
+    display:flex;
+
+}
+.main-img{
+    width:32%;
+}
+.main-menu ul{
+    display:flex;
+    
+}
+.manu-img{
+    margin:28px 0 0 110px;
+}
+.main-menu ul li{
+    list-style: none; 
+    margin:40px 19px;
+    
+ }
+
+ .maun-link li a:active{
+    color:#fec544;
+ }
+ .show a:visited{
+    color:#fec544;
+ }
+ .main-menu ul li a{
+    text-decoration: none;
+    color:#ffffff;
+    font-size: 15px;
+    font-family:'Roboto', sans-serif;
+    Font-weight: 500;
+    
+}
+.phone-number{
+    display:flex;
+    margin-top:40px;
+}
+.phone-number ul li a{
+    color:#ffffff;
+    margin-left:20px;
+    font-size:15px;
+
+   
+}
+.phone-number .phone{
+    
+    color:rgb(254, 197, 68);
+    margin-left:15px;
+    font-size:16px;
+    font-family: Inter, sans-serif;
+    
+}
